@@ -34,6 +34,22 @@ a{
     color: aliceblue;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+#listaIdiomas{
+
+    background-color: #fff;
+    border-color: black;
+    display: flex;
+    border-radius: 5px;
+    margin-left: 42%;
+
+}
+#addSkill{
+    background-color: #fff;
+    border-color: black;
+    display: flex;
+    border-radius: 5px;
+    margin-left: 34%;
+}
 #icono{
     margin-right: 3%;
 }
@@ -80,3 +96,4 @@ h1{
 .ref h4{
     margin-bottom: -2%;
 }
+

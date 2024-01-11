@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CvMariaP</title>
-    <link rel="stylesheet" href="styles/cvStyle.css">
+    <link rel="stylesheet" href="styles/styles/StylesCv.css">
     <script src="https://kit.fontawesome.com/7cc7cebcc2.js" crossorigin="anonymous"></script>
-  
+    <script src="Js/Script.js"></script>
+
 </head>
 <body>
     <header class="header">
@@ -27,11 +28,15 @@
                     <h5><i class="fa-solid fa-code" id="icono"></i>Java</h5>
                     <h5><i class="fa-solid fa-code" id="icono"></i>JavaScript</h5>
                     <h5><i class="fa-solid fa-school" id="icono"></i>SGA(Sistema de Gestión Académica)</h5>
+                    <button id="addSkill" type="submit" onclick="añadirHabilidad()">Añadir Habilidad</button>
                 </div>
                 <div>
                     <h2 class="TT1">Idiomas</h2>
                     <h5>Inglés</h5>
                     <h5>Francés</h5>
+                </div>
+                <div>
+                    <button id="listaIdiomas" type="button" onclick="mostrarIdiomas()" >Idiomas</button>
                 </div>
             </div>
         </header> 
