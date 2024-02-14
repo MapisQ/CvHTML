@@ -5,6 +5,11 @@ const certificaciones = ["Certificado Fundamentos de Programación con Python",
  "Certificado Internacional de Lengua Francesa DELF A2",
   "Certificado Internacional de Lengua Francesa DELF A1"];
 
+
+  const calificarHojaDeVida = () => {
+    let calificacion = prompt("Del 1 al 10, ¿cómo calificarías mi hoja de vida?");
+    alert(`¡Gracias por calificar con un ${calificacion}!`);
+}
 function mostrarIdiomas() {
     let ul = document.getElementById('listaIdiomas');
     
@@ -54,3 +59,10 @@ function mostrarCertificaciones() {
     }
 }
 document.getElementById("certificaciones").addEventListener("click", mostrarCertificaciones);
+
+
+
+
+const saludoPersonalizado = () => {
+    alert("¡Gracias por visitar mi sección de experiencia laboral!");
+}
